@@ -23,7 +23,7 @@ class AnimationActivity : AppCompatActivity() {
 
         animeBtn.setOnClickListener {
 
-            animBlink = AnimationUtils.loadAnimation(applicationContext , R.anim.blinkdemo)
+            animBlink = AnimationUtils.loadAnimation(applicationContext , R.anim.sequential)
             iv.startAnimation(animBlink)
         }
 //        val s = AlphaAnimation(0.0f,1.0f)
